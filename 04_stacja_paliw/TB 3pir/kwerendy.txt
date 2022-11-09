@@ -1,0 +1,6 @@
+CREATE DATABASE samochody_3pir_02 CHARACTER SET utf8;
+
+1. SELECT marka, model FROM samochody WHERE kolor="czerwony";
+2. UPDATE samochody SET stan="dobry" WHERE rocznik=2003;
+3. CREATE USER 'anrzej'@'localhost' IDENTIFIED BY 'anrzej1@';
+4. GRANT SELECT, UPDATE ON samochody TO "andrzej";
