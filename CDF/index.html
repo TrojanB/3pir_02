@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CDF</title>
+</head>
+<body>
+
+    <h1>Trojan Bogacki 3pir</h1>
+    <h3>Zadanie CDF - czytanie danych z formularza i wykonywanie operacji matematycznych.</h3>
+    <p> Zapoznaj się z materiałem lekcji (szczególnie z 5.6 Tworzenie programu) i wykonaj zadanie w którym użytkownik za pomocą formularza wprowadza cztery dane:
+
+        imię (łańcuch znaków) oraz cztery liczby. Skrypt odczytuje te dane i w pliku wynik.php odpowiada "Witaj" z imieniem podanym przez użytkownika "na mojej stronie". Pozostałe wartości zapisuje w tablicy, wyświetla ją (za pomocą var_dump) i po konwersji wypisuje sumę oraz średnią podanych wartości (Nawet jeśli użytkownik zamiast liczb wprowadzi łańcuch znaków. Aby mianownik w średniej był różny od 0 zakładamy, że użytkownik podał przynajmniej jedną liczbę prawidłowo).</p>
+
+<form method="post" action="wynik.php">
+    Podaj imię:
+    <input type="text" name="imie"> <br><br>
+
+    Podaj a:
+    <input type="text" name="a"> <br>
+
+    Podaj b:
+    <input type="text" name="b"> <br>
+
+    Podaj c:
+    <input type="text" name="c"> <br>
+
+    Podaj d:
+    <input type="text" name="d"> <br>
+
+    <input type="submit" value="wykonaj">
+</form>
+
+</body>
+</html>
